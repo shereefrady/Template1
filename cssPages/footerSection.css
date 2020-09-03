@@ -1,0 +1,21 @@
+
+.foot{background: #333;height: 300px}
+
+.lf img{border-style: none;
+    padding-top: 30px;
+    margin-left: 45%;}
+.foot .f1{  height: 60px;
+    float: left;
+    width: 60px;
+    background: #6195ff;
+    margin-left: 9px;
+    border-radius: 50%;}
+.ff{margin-left: 35%;
+    margin-bottom: 15px;}
+.f1 i{color: aliceblue;
+    padding-top: 13px;
+    padding-left: 16px;
+}
+.rd{color: #888;
+    margin-left: 39%;
+    font-size: 17px;}

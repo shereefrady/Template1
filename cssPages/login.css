@@ -1,0 +1,68 @@
+
+body{
+
+    background-color: rgb(183, 209, 205);
+   
+}
+
+
+.addLegend{
+            font-size: 36px;
+            font-family: comic sans ms;
+            color:rgb(112, 133, 130);
+            blogin{margin-left: 10px;}
+          }
+table{
+            background-color:rgb(167, 197, 197);
+            width: 100%;
+          }
+.field{
+            width: 60%;
+            margin-left: 19%;
+            margin-top: 3%;
+            }
+input[type="text"],input[type="password"]{
+            width: 83%;
+            height: 32px;
+            font-size: x-large;
+            margin-top: 20PX;
+            }
+
+            input[type="checkbox"]{margin-left: 40%;}
+            input[type="Submit"]{
+            margin-left: 40%;
+            width: 121px;
+            height: 48px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-size: 24px;
+            color: rgb(41, 121, 207);
+            }
+
+label{
+            font-size: xx-large;
+            color: #694747;
+            }
+.set{
+            height: 52px;
+            width: 115px;
+            color: rgb(90, 100, 153);
+            font-size: 21px;
+            font-weight: bold;
+            padding: 11px;
+            }
+span{       
+            color: rgb(36, 92, 105);
+            font-weight: bold;
+            }
+span.newAccount{
+            font-size: 29px;
+            font-weight: bold;
+            margin-left: 36%;
+            background-color: rgb(141, 188, 190);
+            display: inline-block;
+            height: 33px;
+            padding: 18px;
+           }
+a{text-decoration: none;color: antiquewhite}
+a:hover{color: aquamarine}

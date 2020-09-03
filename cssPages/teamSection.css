@@ -1,0 +1,22 @@
+/*---------------------------------team section-----------------------*/
+.team-item{
+    width:30%;
+    float: left;
+    background:beige;
+    padding: 40px 10px;
+    text-align: center;
+}
+.team-item .item-img{width: 90%;margin: auto; position: relative;}
+.team-overlay{position: absolute; top:0;left: 0;right: 0;bottom: 0;background:rgba(0,0,0,.5);visibility: hidden;opacity: 0; }
+.team-overlay a{display: block;width: 40px;height: 40px; background: #fff; margin-left: auto}
+.team-overlay a i{  line-height: 40px; }
+.team-item .item-img img{width: 100%;}
+.team-item .team-info-title{color: #222; margin: 20px 0;transition: color .5s;}
+.team-item .team-info-desc{color: #9999; text-transform: uppercase; font-size: 14px;transition: color .5s;}
+.team-item:hover .team-overlay{visibility: visible;opacity: 1;}
+.team-item.tb-effect{z-index: 1;}
+.team-item:hover .team-info-title{color: #fff;}
+.team-item:hover .team-info-desc{color: #6195ff;}
+.team-item.mg{margin-left: 5%;margin-left: 5%;}
+/*------------------------------End section---------------------------*/
+

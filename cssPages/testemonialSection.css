@@ -1,0 +1,22 @@
+
+/*------------------------testmonial Table----------------------------*/
+.testmonials-section{
+     position: relative;
+    background-image: url("../images/background/background3.webp");
+    background-attachment: fixed;
+    height: 400px;
+    
+}
+.testmonials_items{width:60%; margin: auto;}
+.testmonials-item{
+    float: left;
+    width: 50%;
+    color: aliceblue;
+}
+.testmonials-item .top-layer{ padding: 10px 2px 38px 100px; position: relative;}
+.testmonials-item .top-layer img{position: absolute;top:10px;left:10px;border-radius: 50%;}
+.testmonials-item .top-layer h3{padding:5px 0;}
+.testmonials-item .top-layer span{color: #6195ff;}
+.desc-layer{line-height: 1.5;font-size: 17px;}
+
+/*************************************************/

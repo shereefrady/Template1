@@ -1,0 +1,74 @@
+/*-------------------------pricing Table----------------------------*/
+
+
+.Pricing-item{
+      width:31%;
+      height: 481px;
+      float: left;
+      border:  1px solid #888;
+      text-align: center;
+      position: relative;
+}
+.Pricing-item .Pricing-item-title{ color:#6195ff;padding-top: 40px ;  margin-bottom: 15px;}
+
+.Pricing-item.mg{
+     margin-left: 3.5%;
+     margin-right: 3.5%;
+}
+
+.Pricing-item .dollar {
+    position: relative;
+    width: 56%;
+    height: 38%;
+    margin-left: 22%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #6195ff;
+    border-radius: 50%;
+    padding: 20px;
+    }
+.Pricing-item .dollar .dollar-title{color: #9a9494;    font-size: 54px; transition: color .5s}
+.Pricing-item .dollar .dollar-title2{color: #9a9494;    font-size: 30px; transition: color .5s}
+.Pricing-item .pricing-list{
+    color: #9a9494;
+    list-style: none;
+}
+.Pricing-item .purchase{
+    margin-left: 25%;
+    width: 51%;
+    height: 13%;
+    padding: 15px;
+    border: 1px solid #6195ff;
+    border-radius: 4%;
+    color: #6195ff;
+    background-color: rgb(222, 224, 226);
+}
+.Pricing-item:hover  .dollar-title,
+.Pricing-item:hover  .dollar-title2
+{color:#fff;}
+
+  
+/*-------------------------pricing Table----------------------------*/
+
+
+/*------------------------testmonial Table----------------------------*/
+.testmonials-section{
+     position: relative;
+    background-image: url("../images/background/background3.webp");
+    background-attachment: fixed;
+    height: 400px;
+    
+}
+.testmonials_items{width:60%; margin: auto;}
+.testmonials-item{
+    float: left;
+    width: 50%;
+    color: aliceblue;
+}
+.testmonials-item .top-layer{ padding: 10px 2px 38px 100px; position: relative;}
+.testmonials-item .top-layer img{position: absolute;top:10px;left:10px;border-radius: 50%;}
+.testmonials-item .top-layer h3{padding:5px 0;}
+.testmonials-item .top-layer span{color: #6195ff;}
+.desc-layer{line-height: 1.5;font-size: 17px;}
+
+/*************************************************/

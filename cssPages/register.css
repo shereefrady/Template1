@@ -1,0 +1,95 @@
+/*--------------------------------------for Registeration-------------------------*/
+ /*div.star::after { content: "*";}*/
+ body{background-color: rgb(211, 235, 234);}
+            .field{
+                        width: 56%;
+                        margin: auto;
+                        margin-top:17px;
+                        background-color: rgb(135, 178, 185);
+                  }
+            .fieldlegend{
+                        font-size: 27px;
+                        color: rgb(31, 99, 14);
+                        font-weight: bold;
+                        background-color:whitesmoke;
+                        }
+            .btnLabel{
+                        font-size: 23px;
+                        background-color: rgb(50, 193, 213);
+                        border-radius: 4px;
+                        font-weight: bold;
+                    }
+
+               div.star{ margin-left: 110px}
+             
+             .star label{    
+                        font-weight: bold;
+                        background-color:rgb(152, 223, 208);
+                        width: 144px;
+                        height: 30px;
+                        text-align: center;
+                        padding: 2px;
+                        color: rgb(35, 26, 46);
+                        padding-top: 9px;
+                        margin: 6px;
+                        border-radius: 13px;
+                        display: inline-block;
+                        }
+            .star input{      
+                        background-color:  rgb(179, 211, 221);
+                        width: 54%;
+                        height: 32px;
+                        rgb(224, 219, 224);
+                        font-size: 17px;
+                       }
+            .require:hover:after{ 
+                        content: "*"; 
+                        color: blueviolet;
+                       }
+            
+           input:invalid{
+                        border: 2px solid black;
+                       }
+          
+           input:valid+.divInvalid 
+                      {
+                        visibility:hidden;
+                      }
+            .format{ 
+                        color: rgb(162, 243, 155);
+                        background-color: rgb(101, 151, 153);
+                        width: 55%;
+                        margin-left: 167px;
+                        border-radius: 5px;
+                      }
+            input:invalid + .divInvalid
+                      {
+                         visibility:visible;
+                      }
+           input[type="text"]:valid,input[type="password"]:valid{ border: 2px solid red;}
+
+         input:focus,textarea:focus{background-color: aqua}
+            .feildGroup{         
+                        width: 47%;
+                        height: 65px;
+                        margin-left: 37%;
+                        border-radius: 10px;
+                        background-color: rgb(152, 192, 202);
+                                               }
+            .teArea{
+                        color: rgb(26, 118, 204);
+                        background-color: rgb(176, 204, 214);
+                        text-align: left;
+                        margin-left: 37%;
+                        margin-top: 10px; 
+                        }
+.margeleft{ margin-left: 37%;
+                        margin-top: 10px; }
+            .btn
+                      {
+                        display: inline-block;
+                        width: 96px;
+                        height: 37px;
+                        border-radius: 10px;
+                        background-color: rgb(25, 162, 156);
+                      }

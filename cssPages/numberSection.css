@@ -1,0 +1,19 @@
+/*-------------------------number----------------------------*/
+.number_section{
+    position: relative;
+    background-image: url("../images/background/background2.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+    
+    }
+.num-item{
+     width: 25%;
+    float: left;
+    text-align: center;
+}
+.num-item .icon{ color: #6195ff;margin-bottom: 15px;padding-top: 100px;}
+.num-item .num-title{font-weight: bold; font-size: 20px;color: #fff;}
+.num-desc{color:azure;}
+
+/*-------------------------End number----------------------------*/

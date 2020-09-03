@@ -1,0 +1,32 @@
+.touch_section{
+  
+}
+.touch-items{margin-bottom: 50px;}
+
+.touch_section .touch-item{  
+    width:30%;
+    float: left;
+    text-align: center;
+  
+}
+.touch_section .touch-item i{padding-top: 20px;
+    color: #6195ff;}
+.touch-info-title{padding-top: 15px;}
+.touch_section .touch-item span{display: inline-block;
+    padding-top: 15px;
+    color: #888;}
+
+.mess{width: 76%;margin: auto;}
+
+.mess input{background:#ccc;height: 46px;margin: 10px}
+.mess .input1{margin-right: 147px;}
+.mess .input3{margin-left: 7px;background-color: #aaa;}
+.mess input[type="button"]{
+    width: 136px;
+    height: 41px;
+    background: #6195ff;
+    margin-left: 44%;
+    
+    font-size: 26px;
+    color: azure;
+}
